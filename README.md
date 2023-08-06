@@ -2,9 +2,11 @@
 This project is for open manipulator hardware where the salve mimic the master trajectory using Python and the trajectory is saved in rosbag file to be later played
 
 for the gravity compensation need to make the following lines
-$ cd ~/catkin_ws/src/
-$ git clone https://github.com/ROBOTIS-GIT/open_manipulator_controls.git
-$ cd ~/catkin_ws && catkin_make
+cd ~/catkin_ws/src/
+
+git clone https://github.com/ROBOTIS-GIT/open_manipulator_controls.git
+
+cd ~/catkin_ws && catkin_make
 
 open dynamixel software (Dynamixel Wizard 2)
 (For the master Robot only) (know the both USB port will use later)
